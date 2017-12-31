@@ -5,3 +5,5 @@ public class Main {
          System.out.println("Hello " + args[0] + "!");
      }
 }
+
+// Вкладка Version Control позволяет узнать правки по проекту
