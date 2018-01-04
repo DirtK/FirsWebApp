@@ -1,4 +1,4 @@
-package ru.moneybranch.webapp.model.interfaces;
+package ru.study.moneybranch.interfaces;
 
 /**
  * stanley

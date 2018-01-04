@@ -1,7 +1,7 @@
-package ru.moneybranch.webapp.model;
+package ru.study.moneybranch.oopmodel;
 
-import ru.moneybranch.webapp.model.auxiliary.ConsoleColors;
-import ru.moneybranch.webapp.model.interfaces.ICar;
+import ru.study.moneybranch.auxiliary.ConsoleColors;
+
 
 /**
  * stanley

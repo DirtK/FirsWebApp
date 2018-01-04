@@ -1,4 +1,4 @@
-package ru.moneybranch.webapp.model;
+package ru.study.moneybranch.oopmodel;
 
 /**
  * stanley

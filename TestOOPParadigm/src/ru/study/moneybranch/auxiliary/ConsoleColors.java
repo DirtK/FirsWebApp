@@ -1,4 +1,4 @@
-package ru.moneybranch.webapp.model.auxiliary;
+package ru.study.moneybranch.auxiliary;
 
 public enum ConsoleColors {
     ANSI_RESET("\u001B[0m"),

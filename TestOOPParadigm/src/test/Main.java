@@ -1,10 +1,10 @@
-package main;
+package test;
 
-import ru.moneybranch.webapp.model.BudgetCar;
-import ru.moneybranch.webapp.model.Car;
-import ru.moneybranch.webapp.model.SportCar;
-import ru.moneybranch.webapp.model.auxiliary.ConsoleColors;
-import ru.moneybranch.webapp.model.interfaces.ICar;
+import ru.study.moneybranch.oopmodel.BudgetCar;
+import ru.study.moneybranch.oopmodel.Car;
+import ru.study.moneybranch.oopmodel.SportCar;
+import ru.study.moneybranch.auxiliary.ConsoleColors;
+import ru.study.moneybranch.interfaces.ICar;
 
 public class Main {
 
