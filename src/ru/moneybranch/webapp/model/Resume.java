@@ -1,4 +1,4 @@
-package ru.moneybranch.webapp.model.model;
+package ru.moneybranch.webapp.model;
 
 
 
@@ -12,15 +12,11 @@ public class Resume {
     private String fullName;
     private String location;
 
-
-
-
-
-
     public Resume() {
     }
 
     public static void main(String[] args)  {
+
 
 
     }
