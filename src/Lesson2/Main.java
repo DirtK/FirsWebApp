@@ -15,14 +15,37 @@ public class Main {
         * Однако, если его необходимо передать, то объект создается как обычно - в куче. И передать ссылку на этот объект.
         *
         * */
-        Link link1= new Link("javawebinar","mystudy.ru");
+        /*int i = 5;
+        Link link1 = new Link("javawebinar", "mystudy.ru");
         Link link2 = link1;
         Link link3 = new Link(link2);
+        System.out.println(link1.getName().hashCode());
+        System.out.println(link3.getName().hashCode());
+
+
+        System.out.println(link1.hashCode());
+        System.out.println(link3.hashCode());
 
         System.out.println(link1.getClass());
         System.out.println(link1.equals(link2));
-        System.out.println(link2.equals(link3));
+        System.out.println(link2.equals(link3));*/
 
+        Integer integer = 16; // Не обязательно делать явное создание объекта (Boxing). Начиная с JAVA 5 это происходит имплицитно
+        System.out.println(Link.getEMPTY()); // Обращаюсь к статическому полю
+        char ch = 'Q'; // размер чара = 2 байта. 2 в 16-й степени - где-то 16 тысяч символов в этот размер. Unicode
+        // а сейчас как стандарт идет UTF-8
+        printInt(integer);
 
-    }
 }
+
+   static void printInt(Integer integer){
+       System.out.println(integer);
+   }
+
+   static void printInt(int i) {// Здесь, если передается объектный тип, то сперва происходит unboxing, и уже потом идет распечатка
+        System.out.println("i = " + i);
+    }
+
+}
+
+
