@@ -5,7 +5,7 @@ package Enums;
  * 05.04.18.
  */
 public enum SectionType {
-    OBJECTIVE("В настоящее время", "Начинающий джава программист"),
+    OBJECTIVE("Текущая позиция", "Начинающий джава программист"),
     ACHIEVEMENT("Достижения"),
     QUALIFICATIONS("Навыки"),
     EXPERIENCE("Опыт работы"),

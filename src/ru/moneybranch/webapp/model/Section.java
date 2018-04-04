@@ -7,7 +7,8 @@ import Enums.SectionType;
  * 06.01.18.
  */
 public class Section {
-    private final SectionType sectionName;
+    protected final SectionType sectionName;
+
 
     public Section(SectionType sectionName) {
         this.sectionName = sectionName;
