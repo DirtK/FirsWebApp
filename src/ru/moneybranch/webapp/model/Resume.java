@@ -12,8 +12,8 @@ import java.util.List;
 public class Resume {
     private String fullName;
     private String location;
-    List<Contact> contacts;
-    List<Section> sections;
+    private List<Contact> contacts;
+    private List<Section> sections;
 
     public Resume() {
     }

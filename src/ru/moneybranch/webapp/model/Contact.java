@@ -6,19 +6,19 @@ package ru.moneybranch.webapp.model;
  */
 public class Contact {
 
-    private final String type;
-    private final String value;
+    private final String TYPE;
+    private final String VALUE;
 
     public Contact(String type, String value) {
-        this.type = type;
-        this.value = value;
+        this.TYPE = type;
+        this.VALUE = value;
     }
 
     public String getType() {
-        return type;
+        return TYPE;
     }
 
     public String getValue() {
-        return value;
+        return VALUE;
     }
 }

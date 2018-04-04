@@ -5,4 +5,5 @@ package ru.moneybranch.webapp.model;
  * 06.01.18.
  */
 public class Section {
+    private String sectionName;
 }
