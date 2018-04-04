@@ -17,10 +17,8 @@ public class Resume {
     private String homePage;
     private List<Contact> contacts;
     private List<Section> sections;
-
     private List<Organization> organizations;
-    private List<Education> education;
-    private List<Experience> experience;
+
 
 
     public Resume(){
