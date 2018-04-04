@@ -5,6 +5,8 @@ package ru.moneybranch.webapp.model;
 import java.util.Collection;
 import java.util.List;
 
+import static com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolver.iterator;
+
 /**
  * stanley
  * 31.12.17.
@@ -12,11 +14,21 @@ import java.util.List;
 public class Resume {
     private String fullName;
     private String location;
+    private String homePage;
     private List<Contact> contacts;
     private List<Section> sections;
 
-    public Resume() {
+    private List<Organization> organizations;
+    private List<Education> education;
+    private List<Experience> experience;
+
+
+    public Resume(){
     }
+
+
+
+
 
     public static void main(String[] args)  {
 

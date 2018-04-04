@@ -8,11 +8,11 @@ import java.util.Date;
  */
 public class Organization {
     private String orgName;
-    private Date periodOfWork;
+    private String period;
 
-    public Organization(String orgName, Date periodOfWork) {
+    public Organization(String orgName, String period) {
         this.orgName = orgName;
-        this.periodOfWork = periodOfWork;
+        this.period = period;
     }
 
     public void setOrgName(String orgName){
@@ -23,11 +23,16 @@ public class Organization {
         return orgName;
     }
 
-    public Date getPeriodOfWork() {
-        return periodOfWork;
+    public String getPeriod() {
+        return period;
     }
 
-    public void setPeriodOfWork(Date periodOfWork) {
-        this.periodOfWork = periodOfWork;
+    public void setPeriod(String period) {
+        this.period = period;
+    }
+
+    @Override
+    public String toString() {
+        return orgName + "\n"+ period;
     }
 }
